@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Bonjour. Vous avez bien containerisé l’application Node.js.');
+  res.send('Bonjour. Vous avez bien containerisé l’application Node.js.\n');
 });
 
 app.listen(PORT, HOST);
