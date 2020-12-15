@@ -10,7 +10,7 @@ FROM node:12
 WORKDIR /usr/src/app
 
 # 3. Copier les fichiers de dépendances dans le working directory à l’aide du mot clé COPY et installer les dépendances à l’aide du mot
-clé RUN :
+#clé RUN :
 COPY package*.json ./
 RUN npm install
 
